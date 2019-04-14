@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://cainmagi.github.io/hugo-templates/hugo-nuo/"
 languageCode = "en"
 title = "Hugo Blog"
 theme = "hugo-nuo"
@@ -31,7 +31,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
 # Add your own params here
 [params]
-  author = "Ritchie Zhu"
+  author = "Yuchen Jin"
   bg = "images/grey-prism.svg"
   avatar = "images/avatar.png"
   seotitle = "Hugo Blog (SEO Version)"
