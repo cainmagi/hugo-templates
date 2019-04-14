@@ -1,0 +1,20 @@
+baseURL = "http://cainmagi.github.io/hugo-templates/"
+languageCode = "en-us"
+title = "Hugo templates"
+theme = "slate"
+
+publishDir = "publi"
+
+[ params ]
+Favicon = "favicon.ico"
+OpenLinksInNewWindow = true
+
+[[ params.nav ]]
+name = "site"
+tag = "site"
+icon = "globe"
+
+[[ params.nav ]]
+name = "template"
+tag = "template"
+icon = "flask"

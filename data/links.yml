@@ -1,0 +1,21 @@
+tiles:
+-
+  name: "Rosenkreutz Studio"
+  url: "https://cainmagi.github.io/"
+  img: "logos/rosen.jpg"
+  bg_color: "#000000"
+  tags: ["site"]
+-
+  name: "TF Guide (Chinese)"
+  url: "https://cainmagi.github.io/tensorflow-guide/"
+  img: "logos/tfguide.png"
+  txt_color: "#ffffff"
+  bg_color: "#EB953E"
+  tags: ["site"]
+-
+  name: "Hugo-nuo"
+  url: "https://cainmagi.github.io/hugo-templates/hugo-nuo"
+  img: "https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-nuo.png"
+  bg_color: "#ffffff"
+  txt_color: "#02AB6B"
+  tags: ["template"]
