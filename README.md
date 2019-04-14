@@ -27,4 +27,4 @@ Currently this collection includes:
 
 [brc-nuo]:https://github.com/cainmagi/hugo-templates/tree/hugo-nuo
 [sor-nuo]:https://github.com/laozhu/hugo-nuo
-[pic-nuo]:https://github.com/cainmagi/hugo-templates/raw/display/hugo-nuo.png
+[pic-nuo]:https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-nuo.png
