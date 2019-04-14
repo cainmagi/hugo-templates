@@ -14,4 +14,4 @@ It is suitable for establishing a personal site.
 
 1. Create this project.
 
-[example-demo]:https://github.com/cainmagi/hugo-templates/raw/display/hugo-nuo.png
+[example-demo]:https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-nuo.png
