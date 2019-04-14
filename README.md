@@ -6,6 +6,8 @@ This example site is based on Ritchie Zhu's work: [hugo-nuo](https://github.com/
 
 It is suitable for establishing a personal site.
 
+To examine the performance, please check this [demo][demo] site.
+
 ![][example-demo]
 
 ## Update report
@@ -19,3 +21,4 @@ It is suitable for establishing a personal site.
 1. Create this project.
 
 [example-demo]:https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-nuo.png
+[demo]:https://cainmagi.github.io/hugo-templates/hugo-nuo/
