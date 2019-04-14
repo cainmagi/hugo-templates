@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Blog</title>
+    <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/</link>
+    <description>Recent content on Hugo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 14 Apr 2019 15:51:46 -0500</lastBuildDate>
+    
+	<atom:link href="https://cainmagi.github.io/hugo-templates/hugo-nuo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/about/</guid>
+      <description>Welcome message  My photo    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/resume/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/resume/</guid>
+      <description>This is my resume.</description>
+    </item>
+    
+    <item>
+      <title>Researches</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/researches/</link>
+      <pubDate>Sun, 14 Apr 2019 01:20:29 -0500</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/researches/</guid>
+      <description> Research Interests  operator algebras Jordan operator algebras operator spaces harmonic analysis operator theory  Publications  D. Blecher, Z. Wang, Roots in Banach and operator algebras, J. Integral Equations Operator Theory 85 (2016), 63-90.  </description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/teaching/</link>
+      <pubDate>Sun, 14 Apr 2019 01:20:29 -0500</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/teaching/</guid>
+      <description> Current Courses    Time Course Classnote Homework     2018 Fall 1314 Business Calculus 📓 📝    Previous Courses    Time Course Classnote Homework     2018 Spring 1314 Business Calculus     2018 Fall 1314 Business Calculus 📓 📝      </description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/links/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/links/</guid>
+      <description>Author and his friends.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Instructions</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-instructions/</link>
+      <pubDate>Sun, 14 Apr 2019 15:51:46 -0500</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-instructions/</guid>
+      <description>&lt;p&gt;Here we discuss about how to maintain a hugo website that is equipped with a renewable theme. In particular, this site is exactly suitable for the case discussed in this article.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo new features</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-newfeatures/</link>
+      <pubDate>Sun, 14 Apr 2019 01:20:29 -0500</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-newfeatures/</guid>
+      <description>&lt;p&gt;In this part, we try to show some useful examples and new extensions that are added into this theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo Readme</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-readme/</link>
+      <pubDate>Sun, 14 Apr 2019 00:09:58 -0500</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-readme/</guid>
+      <description>&lt;p&gt;This is a Chinese article for showing the example about how to use MarkDown. Check &lt;a href=&#34;https://github.com/guodongxiaren/README&#34;&gt;here&lt;/a&gt; to see the original article on Github.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo 主题 Nuo 文章样式预览</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-nuo-examples/</link>
+      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-nuo-examples/</guid>
+      <description>&lt;p&gt;This is a Chinese article for authors who use this theme (&lt;a href=&#34;https://github.com/laozhu/hugo-nuo&#34;&gt;hugo-nuo&lt;/a&gt;). Here are some examples about how to use the features of this theme.&lt;/p&gt;
+
+&lt;p&gt;这篇文章集中说明本人博客主题所支持的 Markdown 语法和 Hugo Shortcodes 插件，你也可以在这里预览到他们的样子。如果你不喜欢某些部分的样式，可以去修改 &lt;code&gt;content.scss&lt;/code&gt; 和 &lt;code&gt;shortcodes.scss&lt;/code&gt; 这两个文件。预告一下，我所用的这个名为 &lt;code&gt;Nuo&lt;/code&gt; 的 &lt;code&gt;Hugo&lt;/code&gt; 也将于近期发布，敬请期待。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-get-start/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-get-start/</guid>
+      <description>&lt;p&gt;In this article, we discuss how to install Hugo and use it in Linux.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

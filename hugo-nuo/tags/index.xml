@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Hugo Blog</title>
+    <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/</link>
+    <description>Recent content in Tags on Hugo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 14 Apr 2019 15:51:46 -0500</lastBuildDate>
+    
+	<atom:link href="https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/hugo/</link>
+      <pubDate>Sun, 14 Apr 2019 15:51:46 -0500</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/markdown/</link>
+      <pubDate>Sun, 14 Apr 2019 01:20:29 -0500</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theme</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/theme/</link>
+      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/go/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

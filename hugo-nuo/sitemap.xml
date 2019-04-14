@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/resume/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/researches/</loc>
+    <lastmod>2019-04-14T01:20:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/teaching/</loc>
+    <lastmod>2019-04-14T01:20:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/links/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/hugo/</loc>
+    <lastmod>2019-04-14T15:51:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/</loc>
+    <lastmod>2019-04-14T15:51:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-instructions/</loc>
+    <lastmod>2019-04-14T15:51:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/</loc>
+    <lastmod>2019-04-14T15:51:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/</loc>
+    <lastmod>2019-04-14T15:51:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-newfeatures/</loc>
+    <lastmod>2019-04-14T01:20:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/markdown/</loc>
+    <lastmod>2019-04-14T01:20:29-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-readme/</loc>
+    <lastmod>2019-04-14T00:09:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-nuo-examples/</loc>
+    <lastmod>2014-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/theme/</loc>
+    <lastmod>2014-07-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-get-start/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cainmagi.github.io/hugo-templates/hugo-nuo/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
