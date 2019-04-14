@@ -10,6 +10,10 @@ It is suitable for establishing a personal site.
 
 ## Update report
 
+### 1.1 @ 20190414
+
+1. Add a new instruction in the example site.
+
 ### 1.0 @ 20190414
 
 1. Create this project.
