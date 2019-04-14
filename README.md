@@ -10,9 +10,13 @@ Currently this collection includes:
 
 | Title | Source | Screenshot|
 | ----- | ----- | ----- |
-| | | |
+| [Hugo-Nuo][brc-nuo] | [@laozhu][sor-nuo] | ![][pic-nuo] |
 
 ## Update report
+
+### 0.8 @ 20190414
+
+1. Add [Hugo-Nuo][brc-nuo] to this collection.
 
 ### 0.7 @ 20190413
 
@@ -20,3 +24,7 @@ Currently this collection includes:
 
 [hugo]:https://gohugo.io/
 [typora]:https://typora.io/
+
+[brc-nuo]:https://github.com/cainmagi/hugo-templates/tree/hugo-nuo
+[sor-nuo]:https://github.com/laozhu/hugo-nuo
+[pic-nuo]:https://github.com/cainmagi/hugo-templates/raw/display/hugo-nuo.png
