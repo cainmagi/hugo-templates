@@ -10,9 +10,14 @@ Currently this collection includes:
 
 | Title | Source | Screenshot|
 | ----- | ----- | ----- |
+| [Hugo-Slate][brc-slate] | [@gesquive][sor-slate] | ![][pic-slate] |
 | [Hugo-Nuo][brc-nuo] | [@laozhu][sor-nuo] | ![][pic-nuo] |
 
 ## Update report
+
+### 0.85 @ 20190414
+
+1. Add [Hugo-Slate][brc-slate] to this collection.
 
 ### 0.8 @ 20190414
 
@@ -28,3 +33,6 @@ Currently this collection includes:
 [brc-nuo]:https://github.com/cainmagi/hugo-templates/tree/hugo-nuo
 [sor-nuo]:https://github.com/laozhu/hugo-nuo
 [pic-nuo]:https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-nuo.png
+[brc-slate]:https://github.com/cainmagi/hugo-templates/tree/hugo-slate
+[sor-slate]:https://github.com/gesquive/slate
+[pic-slate]:https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-slate.png
