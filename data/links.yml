@@ -14,7 +14,7 @@ tiles:
   tags: ["site"]
 -
   name: "Hugo-nuo"
-  url: "https://cainmagi.github.io/hugo-templates/hugo-nuo"
+  url: "./hugo-nuo"
   img: "https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-nuo.png"
   bg_color: "#ffffff"
   txt_color: "#02AB6B"

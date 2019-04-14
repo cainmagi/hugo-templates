@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Hugo templates"
 theme = "slate"
 
-publishDir = "publi"
+publishDir = "public"
 
 [ params ]
 Favicon = "favicon.ico"
