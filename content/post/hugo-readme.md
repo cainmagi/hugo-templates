@@ -8,6 +8,8 @@ enableToc: false
 
 This is a Chinese article for showing the example about how to use MarkDown. Check [here][git-readme] to see the original article on Github.
 
+In particular, this article is also an example of removing the default content, which only needs to add `enableToc: false` in config domain.
+
 <!--more-->
 
 README

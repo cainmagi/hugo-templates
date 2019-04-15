@@ -12,6 +12,11 @@ To examine the performance, please check this [demo][demo] site.
 
 ## Update report
 
+### 1.15 @ 20190414
+
+1. Fix the bug of `wikicard` style.
+2. Add automatic contents.
+
 ### 1.1 @ 20190414
 
 1. Add a new instruction in the example site.
