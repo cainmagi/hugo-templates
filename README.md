@@ -12,6 +12,10 @@ To examine the performance, please check this [demo][demo] site.
 
 ## Update report
 
+### 1.18 @ 20190414
+
+1. Fix the bug of `docs` style.
+
 ### 1.15 @ 20190414
 
 1. Fix the bug of `wikicard` style.
