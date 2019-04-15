@@ -36,7 +36,9 @@
       <pubDate>Sun, 14 Apr 2019 00:09:58 -0500</pubDate>
       
       <guid>https://cainmagi.github.io/hugo-templates/hugo-nuo/post/hugo-readme/</guid>
-      <description>&lt;p&gt;This is a Chinese article for showing the example about how to use MarkDown. Check &lt;a href=&#34;https://github.com/guodongxiaren/README&#34;&gt;here&lt;/a&gt; to see the original article on Github.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a Chinese article for showing the example about how to use MarkDown. Check &lt;a href=&#34;https://github.com/guodongxiaren/README&#34;&gt;here&lt;/a&gt; to see the original article on Github.&lt;/p&gt;
+
+&lt;p&gt;In particular, this article is also an example of removing the default content, which only needs to add &lt;code&gt;enableToc: false&lt;/code&gt; in config domain.&lt;/p&gt;</description>
     </item>
     
     <item>

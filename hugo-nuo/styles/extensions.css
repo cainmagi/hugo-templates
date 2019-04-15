@@ -66,7 +66,7 @@
     transition: 0.3s;
     border-width: 2px;
     border-radius: 5px;
-    background-color: #ebecf1;
+    background-color: #ecf1eb;
     box-shadow: 0 0 5px #223;
     margin: 0 10px;
 }
@@ -112,7 +112,7 @@ div .overflow .check{
 }
 
 @media screen and (max-width: 600px) {
-    div .wiki{
+    .wiki{
         float: none;
         margin-right: auto;
         margin-left:auto;
