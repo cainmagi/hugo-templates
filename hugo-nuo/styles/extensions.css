@@ -221,11 +221,12 @@ div .overflow .check{
     left: 0;
     right: 0;
     bottom: 0;
+    background-color: #02b875;
 }
 
 .docs.container .docs .center {
     position: relative;
-    width: 100%;
+    width: 80%;
     max-width: 400px;
     height: 100%;
     margin: auto;
@@ -233,4 +234,10 @@ div .overflow .check{
 
 .docs.container .docs .center p {
     position: absolute;
+}
+
+.docs.container .docs .center a {
+    font-weight: 700;
+    color: white;
+    border-bottom-color: white;
 }
