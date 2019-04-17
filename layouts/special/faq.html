@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          {{ partial "nav.html" . }}
+
+        </header>
+
+        {{ partial "breadcrumbs.html" . }}
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    <p class="text-muted text-uppercase mb-small text-right">{{ if .Params.author }}{{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a> | {{ end }}{{ .Date.Format .Site.Params.date_format }}</p>
+
+                    <div id="post-content">
+                      <section class="cd-faq">
+                        {{ .TableOfContents | replaceRE "<ul>" "<ul class=\"cd-faq-categories\">" | replaceRE "<nav.*?>" "" | replaceRE "</nav>" "" | safeHTML }}
+                        <div class="cd-faq-items">
+                          {{ .Content }}
+                        </div>
+                        <a href="#0" class="cd-close-panel">Close</a>
+                      </section> <!-- cd-faq -->
+                    </div>
+                    <!-- /#post-content -->
+                    {{ if .Site.DisqusShortname }}
+                    <div id="comments">
+                        {{ template "_internal/disqus.html" . }}
+                    </div>
+                    {{ end }}
+
+                    <!-- /#blog-post -->
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>

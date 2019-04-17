@@ -1,0 +1,87 @@
+/* your styles go here */
+
+.box-image-text .image {
+    min-height: 180px;
+    max-height: 180px;
+  }
+  
+.box-simple {
+    min-height: 230px;
+}
+  
+.testimonials .item {
+    padding-bottom: 80px;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+/* table */
+
+table{
+    color:#363636;
+    margin:2rem auto;
+    width:100%;
+    border-collapse:collapse
+}
+table td,table th{
+    border:1px solid #dbdbdb;
+    border-width:0 0 1px;
+    padding:.5em .75em;
+    vertical-align:center
+}
+table td.is-narrow,table th.is-narrow{
+    white-space:nowrap;
+    width:1%
+}
+table th{
+    color:#363636
+}
+table tr:hover{
+    background-color:#fafafa
+}
+table tr.is-selected{
+    background-color:#00ab6b;
+    color:#00ab6b
+}
+table tr.is-selected a,table tr.is-selected strong{
+    color:currentColor
+}
+table tr.is-selected td,table tr.is-selected th{
+    border-color:#00ab6b;
+    color:currentColor
+}
+table thead td,table thead th{
+    border-width:0 0 2px;
+    color:#797979
+}
+table tfoot td,table tfoot th{
+    border-width:2px 0 0;
+    color:#797979
+}
+table tbody tr:last-child td,table tbody tr:last-child th{
+    border-bottom-width:0
+}
+table.is-bordered td,table.is-bordered th{
+    border-width:1px
+}
+table.is-bordered tr:last-child td,table.is-bordered tr:last-child th{
+    border-bottom-width:1px
+}
+table.is-narrow td,table.is-narrow th{
+    padding:.25em .5em
+}
+table.is-centered td,table.is-centered th,table.is-centered tr{
+    text-align:center
+}
+table.is-striped tbody tr:not(.is-selected):nth-child(even){
+    background-color:#fafafa
+}
+table.is-striped tbody tr:not(.is-selected):nth-child(even):hover{
+    background-color:#f4f3f1
+}

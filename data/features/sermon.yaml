@@ -1,0 +1,5 @@
+weight: 2
+name: "Sermon"
+icon: "fa fa-book"
+description: "Example description goes here."
+url: ./blog/

@@ -1,0 +1,15 @@
+.portfolio-filter button:hover {
+  border-bottom: 2px solid #986dbd;
+}
+  
+.portfolio-filter button.active {
+  border-bottom: 2px solid #986dbd;
+}
+
+.portfolio-block:before {
+  background: rgba(152, 109, 189, 0.9);
+}
+
+.portfolio-block .caption .search-icon {
+  background: #986dbd;
+}
