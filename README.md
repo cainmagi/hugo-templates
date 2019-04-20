@@ -12,8 +12,13 @@ Currently this collection includes:
 | ----- | ----- | ----- |
 | [Hugo-Slate][brc-slate] | [@gesquive][sor-slate] | ![][pic-slate] |
 | [Hugo-Nuo][brc-nuo] | [@laozhu][sor-nuo] | ![][pic-nuo] |
+| [Hugo-Universal][brc-universal] | [@devcows][sor-universal] | ![][pic-universal] |
 
 ## Update report
+
+### 1.0 @ 20190420
+
+1. Add [Hugo-Universal][brc-universal] to this collection.
 
 ### 0.85 @ 20190414
 
@@ -36,3 +41,6 @@ Currently this collection includes:
 [brc-slate]:https://github.com/cainmagi/hugo-templates/tree/hugo-slate
 [sor-slate]:https://github.com/gesquive/slate
 [pic-slate]:https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-slate.png
+[brc-universal]:https://github.com/cainmagi/hugo-templates/tree/hugo-universal
+[sor-universal]:https://github.com/devcows/hugo-universal-theme
+[pic-universal]:https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-universal.png
