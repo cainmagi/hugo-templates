@@ -23,7 +23,7 @@ tiles:
 -
   name: "Hugo-universal"
   url: "./hugo-universal/"
-  img: "https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-universal.png"
+  img: "https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-universal.jpg"
   bg_color: "#ffffff"
   txt_color: "#02AB6B"
   tags: ["template"]
