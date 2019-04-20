@@ -1,0 +1,29 @@
+.portfolio-filter button:hover {
+  border-bottom: 2px solid #4fbfa8;
+}
+  
+.portfolio-filter button.active {
+  border-bottom: 2px solid #4fbfa8;
+}
+
+.portfolio-block:before {
+  background: rgba(79, 191, 168, 0.9);
+}
+
+.portfolio-block .caption .search-icon {
+  background: #4fbfa8;
+}
+
+.toc-button .tocbut-container .tocbut-bar1, 
+.toc-button .tocbut-container .tocbut-bar2,
+.toc-button .tocbut-container .tocbut-bar3 {
+  background-color: #4fbfa8;
+}
+
+.special-callout {
+  background-color: #4fbfa8;
+}
+
+span.detail-label {
+  background-color: #4fbfa8;
+}

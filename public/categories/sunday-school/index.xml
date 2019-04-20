@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sunday-school on Universal</title>
+    <link>https://cainmagi.github.io/hugo-templates/hugo-universal/categories/sunday-school/</link>
+    <description>Recent content in sunday-school on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Apr 2019 09:20:59 -0500</lastBuildDate>
+    
+	<atom:link href="https://cainmagi.github.io/hugo-templates/hugo-universal/categories/sunday-school/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Example sunday school</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-universal/sunschool/example/</link>
+      <pubDate>Sat, 20 Apr 2019 09:20:59 -0500</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-universal/sunschool/example/</guid>
+      <description>Example sunday school Here we put some news about a sunday school.</description>
+    </item>
+    
+  </channel>
+</rss>

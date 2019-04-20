@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Outreaches on Universal</title>
+    <link>https://cainmagi.github.io/hugo-templates/hugo-universal/outreach/</link>
+    <description>Recent content in Outreaches on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Apr 2019 00:29:15 -0500</lastBuildDate>
+    
+	<atom:link href="https://cainmagi.github.io/hugo-templates/hugo-universal/outreach/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>English Buddy</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-universal/outreach/english-buddy/</link>
+      <pubDate>Fri, 19 Apr 2019 00:29:15 -0500</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-universal/outreach/english-buddy/</guid>
+      <description>English Buddy is an outreach ministry of HCC. We seek to share God’s love and gospel message with internationals by being English conversation partners.
+ The primary way we outreach is by building relationships with the internationals through hanging out over meals/coffee/sports, emailing, being an American resource for them if have any questions about the US or Houston. Secondarily, we have two main events a year – Christmas Party and Easter Picnic.</description>
+    </item>
+    
+    <item>
+      <title>Global Missions</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-universal/outreach/missions/</link>
+      <pubDate>Fri, 19 Apr 2019 00:29:03 -0500</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-universal/outreach/missions/</guid>
+      <description>The message of God’s heart for all nations (ethne = people groups) is a central theme of the Bible, where God desires every Christian to be involved in some way in bringing the Gospel to unreached people groups, wherever Christians and unreached people may be. It is to God’s glory that people from every tribe, nation, and tongue worship Him! Global missions is a universal Christian responsibility that cannot be ignored.</description>
+    </item>
+    
+  </channel>
+</rss>

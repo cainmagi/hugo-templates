@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on Universal</title>
+    <link>https://cainmagi.github.io/hugo-templates/hugo-universal/resource/</link>
+    <description>Recent content in Resources on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Apr 2019 09:24:25 -0500</lastBuildDate>
+    
+	<atom:link href="https://cainmagi.github.io/hugo-templates/hugo-universal/resource/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recommended Books</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-universal/resource/recommended-books/</link>
+      <pubDate>Sat, 20 Apr 2019 09:24:25 -0500</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-universal/resource/recommended-books/</guid>
+      <description>Here are some books that we recommend for those seeking truth and understanding. We encourage you to make a regular practice of picking a book from our list, getting two copies, and reading it with a friend.
+Bibles  ESV Study Bible ESV Daily Reading Bible Reformation Study Bible  Devotional Helps  For the Love of God (v.1-2) by D.A. Carson Morning and Evening by Charles Spurgeon A Godward Life (v.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-universal/resource/faq/</link>
+      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-universal/resource/faq/</guid>
+      <description>I am new here When and where do you meet?We gather every Sunday to worship together at 10305 South Main Street, Houston, TX.
+ English Service @ 9:15am (Sunday School @ 11:00am) Cantonese Service @ 9:15am (Sunday School @ 11:00am) Mandarin Service @ 11:00am (Sunday School @ 9:15am) Pearland Campus Service @ 2:00pm (Sunday School @ 3:00pm) http://www.pccchome.org/ Currently meeting at the First United Methodist Church – Bethel Building (3887 E Jasmine St, Pearland, TX 77581)  What can I expect at your Sunday Worship Service?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+a {
+  color: #955251;
+}
+.cd-faq-categories a {
+  color: #955251;
+}
+@media only screen and (min-width: 768px) {
+  .no-touch .cd-faq-categories a:hover {
+    background: #ad6665;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-faq-categories a::before {
+    background-color: #ad6665;
+  }
+  .cd-faq-categories .selected {
+    background: #955251 !important;
+    border-bottom: 1px solid #6d3c3b !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .cd-faq-trigger::before, .cd-faq-trigger::after {
+    background: #955251;
+  }
+}

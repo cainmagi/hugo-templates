@@ -1,0 +1,152 @@
+/************************************************************************************
+These style are from:
+https://github.com/themefisher/navigator-hugo/
+*************************************************************************************/
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/*=================================================================
+  Portfolio section
+==================================================================*/
+.portfolio-filter {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.portfolio-filter button {
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 10px;
+  padding: 8px 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  color: #777;
+  outline: none;
+  background: none;
+}
+
+.portfolio-filter button:hover {
+  border-bottom: 2px solid #38a7bb;
+  color: #000;
+}
+
+.portfolio-filter button.mixitup-control-active {
+  border-bottom: 2px solid #38a7bb;
+  color: #000;
+}
+
+.sec-portfolio .row {
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.portfolio-items-wrapper .col-md-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  width: unset;
+}
+
+.portfolio-items-wrapper li {
+  width: 32.33%;
+}
+
+.sec-portfolio .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .portfolio-items-wrapper .col-md-4 {
+    flex: 0 0 50.0%;
+    max-width: 50.0%;
+    width: unset;
+  }
+  
+  .portfolio-items-wrapper li {
+    width: 49.0%;
+  }
+
+  
+}
+
+.portfolio-block {
+  position: relative;
+  transition: .3s all;
+  overflow: hidden;
+}
+
+.portfolio-block:before {
+  content: '';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(56, 167, 187, 0.9);
+  transition: .3s all;
+}
+
+.portfolio-block:hover:before {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.portfolio-block:hover .caption h4 {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.portfolio-block:hover .caption {
+  opacity: 1;
+  visibility: visible;
+}
+
+.portfolio-block:hover .caption .search-icon {
+  opacity: 1;
+  visibility: visible;
+}
+
+.portfolio-block .caption {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  opacity: 0;
+  z-index: 9;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+}
+
+.portfolio-block .caption h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.portfolio-block .caption a {
+  color: #fff;
+  text-decoration-color: #fff;
+}
+
+.portfolio-block .caption a h4 {
+  color: #fff;
+}
+
+.portfolio-block .caption .search-icon {
+  background: #38a7bb;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+}

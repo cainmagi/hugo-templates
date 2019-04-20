@@ -1,0 +1,29 @@
+.portfolio-filter button:hover {
+  border-bottom: 2px solid #955251;
+}
+
+.portfolio-filter button.active {
+  border-bottom: 2px solid #955251;
+}
+
+.portfolio-block:before {
+  background: rgba(149, 82, 81, 0.9);
+}
+
+.portfolio-block .caption .search-icon {
+  background: #955251;
+}
+
+.toc-button .tocbut-container .tocbut-bar1, 
+.toc-button .tocbut-container .tocbut-bar2,
+.toc-button .tocbut-container .tocbut-bar3 {
+  background-color: #955251;
+}
+
+.special-callout {
+  background-color: #955251;
+}
+
+span.detail-label {
+  background-color: #955251;
+}

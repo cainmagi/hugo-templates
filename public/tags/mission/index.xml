@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mission on Universal</title>
+    <link>https://cainmagi.github.io/hugo-templates/hugo-universal/tags/mission/</link>
+    <description>Recent content in mission on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Apr 2019 05:44:43 -0500</lastBuildDate>
+    
+	<atom:link href="https://cainmagi.github.io/hugo-templates/hugo-universal/tags/mission/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Short and Sweet: Sending Workers Well</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-universal/resource/sermon/20190420-john/</link>
+      <pubDate>Sat, 20 Apr 2019 05:44:43 -0500</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-universal/resource/sermon/20190420-john/</guid>
+      <description> Short and Sweet: Sending Workers Well Bible Verses3rd John 1:1-14PreacherHenry OwPreached onApril 20, 2019Song  Video example  Audio player  Additional files  MP3 PDF</description>
+    </item>
+    
+  </channel>
+</rss>

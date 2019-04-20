@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>book on Universal</title>
+    <link>https://cainmagi.github.io/hugo-templates/hugo-universal/tags/book/</link>
+    <description>Recent content in book on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Apr 2019 09:24:25 -0500</lastBuildDate>
+    
+	<atom:link href="https://cainmagi.github.io/hugo-templates/hugo-universal/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recommended Books</title>
+      <link>https://cainmagi.github.io/hugo-templates/hugo-universal/resource/recommended-books/</link>
+      <pubDate>Sat, 20 Apr 2019 09:24:25 -0500</pubDate>
+      
+      <guid>https://cainmagi.github.io/hugo-templates/hugo-universal/resource/recommended-books/</guid>
+      <description>Here are some books that we recommend for those seeking truth and understanding. We encourage you to make a regular practice of picking a book from our list, getting two copies, and reading it with a friend.
+Bibles  ESV Study Bible ESV Daily Reading Bible Reformation Study Bible  Devotional Helps  For the Love of God (v.1-2) by D.A. Carson Morning and Evening by Charles Spurgeon A Godward Life (v.</description>
+    </item>
+    
+  </channel>
+</rss>
