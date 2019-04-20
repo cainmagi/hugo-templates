@@ -43,4 +43,4 @@ Currently this collection includes:
 [pic-slate]:https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-slate.png
 [brc-universal]:https://github.com/cainmagi/hugo-templates/tree/hugo-universal
 [sor-universal]:https://github.com/devcows/hugo-universal-theme
-[pic-universal]:https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-universal.png
+[pic-universal]:https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-universal.jpg
