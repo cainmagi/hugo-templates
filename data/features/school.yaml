@@ -1,4 +1,5 @@
 weight: 3
 name: "Sunday school"
-icon: "fa fa-graduation-cap"
-description: "Example description goes here."
+icon: "fas fa-school"
+description: "Learn God's Words by well designed courses."
+url: ./sunschool/

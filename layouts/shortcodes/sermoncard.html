@@ -1,0 +1,19 @@
+<table style="width:max-content;margin: 2rem 0;">
+    <tbody>
+    <tr>
+    <td><span class="detail-label">Bible Verses</span></td>
+    <td>{{ .Page.Params.verse }}</td>
+    </tr>
+    
+    <tr>
+    <td><span class="detail-label">Preacher</span></td>
+    <td>{{ .Page.Params.author }}</td>
+    </tr>
+    
+    <tr>
+    <td><span class="detail-label">Preached on</span></td>
+    <td>{{ .Page.Date.Format .Site.Params.date_format }}</td>
+    </tr>
+    </tbody>
+</table>
+    

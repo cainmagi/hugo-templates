@@ -22,7 +22,7 @@
 
                     <div class="col-md-9" id="blog-listing-medium">
 
-                        {{ $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.viewArticles) }}
+                        {{ $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.viewAll) }}
                         {{ range $paginator.Pages }}
                         <section class="post">
                             <div class="row">
@@ -58,7 +58,7 @@
 
                                         </p>
                                         <p class="date-comments">
-                                            <a href="{{ .Permalink }}"><i class="fa fa-calendar-o"></i> {{ .Date.Format .Site.Params.date_format }}</a>
+                                            <a href="{{ .Permalink }}"><i class="fas fa-calendar-o"></i> {{ .Date.Format .Site.Params.date_format }}</a>
                                         </p>
                                     </div>
                                     <p class="intro">{{ .Summary }}</p>

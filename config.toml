@@ -18,41 +18,161 @@ paginate = 10
 # Main menu
 
 [[menu.main]]
-    name = "Home"
-    url  = "/"
-    weight = 1
-
-[[menu.main]]
-    name = "Blog"
-    url  = "/blog/"
+    name = "About"
     weight = 2
 
+    [[menu.main]]
+        name = "Mission & Beliefs"
+        parent = "About"
+        url  = "/about/mission-beliefs/"
+        weight = 1
+
+    [[menu.main]]
+        name = "Core Values"
+        parent = "About"
+        url  = "/about/core-values/"
+        weight = 2
+
+    [[menu.main]]
+        name = "Staff"
+        parent = "About"
+        url  = "/about/staff/"
+        weight = 3
+
+    [[menu.main]]
+        name = "Donation"
+        parent = "About"
+        url  = "/about/donation/"
+        weight = 4
+
+    [[menu.main]]
+        name = "Contact Us"
+        parent = "About"
+        url  = "/about/contact/"
+        weight = 5
+
+    [[menu.main]]
+        name = "I'm new here"
+        parent = "About"
+        url  = "/resource/faq/#i-am-new-here"
+        weight = 6
+
 [[menu.main]]
-    name = "Blog2"
+    name = "Group"
     weight = 3
 
-[[menu.main]]
-    name = "Main"
-    parent = "Blog2"
-    url  = "/blog2/main/"
-    weight = 1
+    [[menu.main]]
+        name = "Colledge Group"
+        parent = "Group"
+        url  = "/group/colledge/"
+        weight = 1
+
+    [[menu.main]]
+        name = "Community Groups"
+        parent = "Group"
+        url  = "/group/community/"
+        weight = 2
+
+    [[menu.main]]
+        name = "Family Groups"
+        parent = "Group"
+        url  = "/group/family/"
+        weight = 3
 
 [[menu.main]]
-    name = "Check"
-    parent = "Blog2"
-    url  = "/blog2/check/get/"
-    weight = 2
-
-[[menu.main]]
-    name = "FAQ"
-    identifier = "faq"
-    url  = "/faq/"
+    name = "Ministry"
     weight = 4
 
+    [[menu.main]]
+        name = "Nursery"
+        parent = "Ministry"
+        url  = "/ministry/nursery/"
+        weight = 1
+
+    [[menu.main]]
+        name = "Children"
+        parent = "Ministry"
+        url  = "/ministry/children/"
+        weight = 2
+
+    [[menu.main]]
+        name = "Youth"
+        parent = "Ministry"
+        url  = "/ministry/youth/"
+        weight = 3
+    
+    [[menu.main]]
+        name = "Family Life"
+        parent = "Ministry"
+        url  = "/ministry/family-life/"
+        weight = 4
+
+    [[menu.main]]
+        name = "Singles"
+        parent = "Ministry"
+        url  = "/ministry/singles/"
+        weight = 5
+    
+    [[menu.main]]
+        name = "Women"
+        parent = "Ministry"
+        url  = "/ministry/women/"
+        weight = 6
+
 [[menu.main]]
-    name = "Contact"
-    url  = "/contact/"
+    name = "Outreach"
     weight = 5
+
+    [[menu.main]]
+        name = "Global Missions"
+        parent = "Outreach"
+        url  = "/outreach/missions/"
+        weight = 1
+    
+    [[menu.main]]
+        name = "English Buddy Program"
+        parent = "Outreach"
+        url  = "/outreach/english-buddy/"
+        weight = 2
+
+[[menu.main]]
+    name = "Resource"
+    weight = 6
+
+    [[menu.main]]
+        name = "Sermon"
+        parent = "Resource"
+        url  = "/resource/sermon/"
+        weight = 1
+
+    [[menu.main]]
+        name = "Recommended Books"
+        parent = "Resource"
+        url  = "/resource/recommended-books/"
+        weight = 2
+
+    [[menu.main]]
+        name = "FAQ"
+        parent = "Resource"
+        identifier = "faq"
+        url  = "/resource/faq/"
+        weight = 3
+
+[[menu.main]]
+    name = "Activity"
+    weight = 7
+
+    [[menu.main]]
+        name = "Event"
+        parent = "Activity"
+        url  = "/event/"
+        weight = 1
+
+    [[menu.main]]
+        name = "Sunday School"
+        parent = "Activity"
+        url  = "/sunschool/"
+        weight = 2
 
 # Top bar social links menu
 
@@ -60,31 +180,32 @@ paginate = 10
     weight = 1
     name = "GitHub"
     url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fa fa-2x fa-github'></i>"
+    pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 2
     name = "Facebook"
     url = "http://facebook.com"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
+    pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
     weight = 3
     name = "Twitter"
     url = "http://twitter.com"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
+    pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
     weight = 4
     name = "Email"
     url = "mailto:your@email.com"
-    pre = "<i class='fa fa-2x fa-envelope'></i>"
+    pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
-    viewMorePostLink = "/blog/"
-    viewArticles = ["blog", "blog2"]
+    viewMorePostLink = "/event/"
+    viewArticles = ["event", "sunschool", "sermon"]
+    viewAll = ["event", "sunschool", "sermon"]
     author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
+    defaultKeywords = []
     defaultDescription = "Site template made by devcows using hugo"
 
     # Twitter
@@ -122,25 +243,24 @@ paginate = 10
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
+    address = """<p><strong>Houston Chinese Church</strong>
+        <br>10305 South Main St.,
+        <br>Houston
+        <br>TX 77025-5509
         <br>
-        <strong>Great Britain</strong>
+        <strong>United States</strong>
       </p>
       """
 
 [Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    event = "/event/:year/:month/:day/:filename/"
 
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
     text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
       """
 

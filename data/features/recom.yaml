@@ -1,4 +1,5 @@
 weight: 4
 name: "Book Recommendations"
-icon: "fa fa-lightbulb-o"
-description: "Example description goes here."
+icon: "fas fa-book"
+description: "Recommended books for learning God's Words."
+url: ./resource/recommended-books

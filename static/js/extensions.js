@@ -9,10 +9,22 @@ $(".addstyle img").each(function(i, obj) {
       var clipMode = $(this).attr('clipmode');
       var clipCode = 'background-size: ' + imageResize + ' auto';
       if (imageWidth == '') {
-        imageWidth = theImage.width + 'px';
+        imageWidth = 'width: ' + theImage.width + 'px;';
+      }
+      else if (imageWidth == 'none'){
+        imageWidth = ''
+      }
+      else {
+        imageWidth = 'width: ' + imageWidth + ';';
       }
       if (imageHeight == '') {
-        imageHeight = theImage.height + 'px';
+        imageHeight = 'height: ' + theImage.height + 'px;';
+      }
+      else if (imageHeight == 'none'){
+        imageHeight = ''
+      }
+      else {
+        imageHeight = 'height: ' + imageHeight + ';';
       }
       if (imageResize == '') {
         imageResize = '150%';
@@ -20,7 +32,7 @@ $(".addstyle img").each(function(i, obj) {
       if (clipMode == 'height') {
         clipCode = 'background-size: auto ' + imageResize;
       }
-      return '<span class="image-wrap ' + $(this).attr('class') + '" style="position:relative; display:inline-block; background:url(' + theImage.src + ') no-repeat center center; width: ' + imageWidth + '; height: ' + imageHeight + '; ' + clipCode + ';" />';
+      return '<span class="image-wrap ' + $(this).attr('class') + '" style="position:relative; display:inline-block; background:url(' + theImage.src + ') no-repeat center center; ' + imageWidth + ' ' + imageHeight + ' ' + clipCode + ';" />';
     });
     $(obj).remove();
 });
@@ -47,8 +59,20 @@ $(".addstyle img").each(function(i, obj) {
         var mixer=mixitup(portfolio_item, {
             animation: {
                 duration: 300
+            },
+            selectors: {
+              control: '.portfolio-filter button'
             }
         });
     };
 
 })(jQuery);
+
+const player = new Plyr('.plyr-player');
+
+$(document).ready(function () {
+  $('#dtBasicExample').DataTable({
+  "searching": true // false to disable search (or any other option)
+  });
+  $('.dataTables_length').addClass('bs-select');
+});

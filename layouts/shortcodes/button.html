@@ -1,0 +1,7 @@
+<p>
+    {{ if .Get "url" }}
+    <a href="{{ .Get "url" }}" class="{{ if (.Get "dark" | default false) }}btn btn-template-transparent-black{{ else }}btn btn-template-main{{ end }}" style="margin: 0">{{ if .Get "icon" }}<i class="{{ .Get "icon" }}"></i> {{ end }}{{ .Get "text" }}</a>
+    {{ else }}
+    <span class="{{ if (.Get "dark" | default false) }}btn btn-template-transparent-black{{ else }}btn btn-template-main{{ end }}" style="margin: 0">{{ if .Get "icon" }}<i class="{{ .Get "icon" }}"></i> {{ end }}{{ .Get "text" }}</span>
+    {{ end }}
+</p>

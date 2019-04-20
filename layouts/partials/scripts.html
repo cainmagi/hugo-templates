@@ -1,6 +1,8 @@
 {{ template "_internal/google_analytics.html" . }}
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/jquery.dataTables.min.js" integrity="sha256-t5ZQTZsbQi8NxszC10CseKjJ5QeMw5NINtOXQrESGSU=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/dataTables.bootstrap.min.js" integrity="sha256-X/58s5WblGMAw9SpDtqnV8dLRNCawsyGwNqnZD0Je/s=" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="https:/cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -15,9 +17,14 @@
 <!-- extensions -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.5.3/plyr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.5.3/plyr.polyfilled.min.js"></script>
+<script type="text/javascript" src="https://av1611.com/verseclick/verseclick.js"></script>
 {{ if .Params.layout }}
 {{ if eq .Params.layout "faq" }}
 <script src="{{ .Site.BaseURL }}js/cd-faq.js"></script>
 {{ end }}
+{{ else }}
+<script src="{{ .Site.BaseURL }}js/ham-menu.js"></script>
 {{ end }}
 <script src="{{ .Site.BaseURL }}js/extensions.js"></script>

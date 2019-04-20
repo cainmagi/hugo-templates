@@ -144,9 +144,9 @@ https://github.com/themefisher/navigator-hugo/
   background: #38a7bb;
   color: #fff;
   display: inline-block;
-  padding: 10px 10px;
-  font-size: 25px;
-  border-radius: 30px;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
   opacity: 0;
   visibility: hidden;
 }

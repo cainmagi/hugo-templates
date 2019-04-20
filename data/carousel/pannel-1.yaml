@@ -2,7 +2,7 @@ weight: 1
 title: "Living in the Psalms"
 description: "<p>On March 17-24, 2019, join us as we study the Psalms and enjoy God’s creation on our 2019 Caribbean Study Cruise. Together with Ligonier Teaching Fellows Drs. W. Robert Godfrey and Stephen Nichols, we will explore the central teachings of the Psalms and how they apply to believers today.</p>"
 image: "img/carousel/banner-exp-2.jpg"
-clip: width # could be "width", "height" or left blank
+clip: height # could be "width", "height" or left blank
 imstyle: feather # could be "circle", "card", "embossed", "soft-embossed", "cutout", "tape", "glossy", "reflection", "morphing-glowing", "morphing-tinting", "feather" or left blank
 resize: 120%
 height: 400px

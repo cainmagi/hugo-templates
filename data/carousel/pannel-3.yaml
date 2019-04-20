@@ -10,4 +10,4 @@ description: >
 image: "img/carousel/banner-exp-3.jpg"
 clip: height # could be "width", "height" or left blank
 imstyle: embossed # could be "circle", "card", "embossed", "soft-embossed", "cutout", "tape", "glossy", "reflection", "morphing-glowing", "morphing-tinting", "feather" or left blank
-url: ./blog/2015/10/02/linked-post/
+url: ./event/2015/10/02/linked-post/

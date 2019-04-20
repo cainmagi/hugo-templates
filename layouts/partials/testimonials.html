@@ -1,6 +1,5 @@
 {{ if isset .Site.Params "testimonials" }}
 {{ if .Site.Params.testimonials.enable }}
-{{ if gt (len .Site.Data.testimonials) 0 }}
 <section class="bar background-pentagon no-mb">
     <div class="container">
         <div class="row">
@@ -16,25 +15,23 @@
                 <!-- *** TESTIMONIALS CAROUSEL *** -->
 
                 <ul class="owl-carousel testimonials same-height-row">
-                    {{ range .Site.Data.testimonials }}
+                    {{ range (last 8 (first (mul $.Paginator.PageNumber 8) (where .Data.Pages "Type" "sermon"))) }}
                     <li class="item">
                         <div class="testimonial same-height-always">
                             <div class="text">
-                                <h4>{{ .name }}</h4>
-                                <p>{{ .text | markdownify }}</p>
+                                <h4>{{ .Title }}</h4>
+                                <p>{{ .Params.description | truncate 320 }}</p>
                             </div>
                             <div class="bottom">
-                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                <div class="icon"><i class="fas fa-quote-left"></i>
                                 </div>
                                 <div class="name-picture">
-                                    {{if .avatar }}
+                                    {{if .Params.avatar }}
                                     <img class="" alt="" src="{{ .avatar | absURL }}">
                                     {{ end }}
-                                    <h5>{{ .verse }}</h5>
-                                    <p>{{ .position }}</p>
-                                    {{ if .url }}
-                                    <a href="{{ .url }}" class="btn btn-template-main" style="margin: .5rem 0">Learn more</a>
-                                    {{ end }}
+                                    <h5>{{ .Params.verse }}</h5>
+                                    <p>Preached by {{ .Params.author }}</p>
+                                    <a href="{{ .Permalink }}" class="btn btn-template-main" style="margin: .5rem 0">{{ i18n "readMore" }}</a>
                                 </div>
                             </div>
                         </div>
@@ -50,6 +47,5 @@
     </div>
 </section>
 <!-- /.bar -->
-{{ end }}
 {{ end }}
 {{ end }}

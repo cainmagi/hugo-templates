@@ -13,3 +13,17 @@
 .portfolio-block .caption .search-icon {
   background: #da4d4d;
 }
+
+.toc-button .tocbut-container .tocbut-bar1, 
+.toc-button .tocbut-container .tocbut-bar2,
+.toc-button .tocbut-container .tocbut-bar3 {
+  background-color: #da4d4d;
+}
+
+.special-callout {
+  background-color: #da4d4d;
+}
+
+span.detail-label {
+  background-color: #da4d4d;
+}

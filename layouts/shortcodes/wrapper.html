@@ -1,0 +1,21 @@
+{{ if .Get "type" }}
+{{ if eq (.Get "type") "div" }}
+<div class="{{ .Get "class" | default "" }}", style="{{ .Get "style" | default "" }}">
+{{ end }}
+{{ if eq (.Get "type") "blockquote" }}
+<blockquote class="{{ .Get "class" | default "" }}", style="{{ .Get "style" | default "" }}">
+{{ end }}
+{{ else }}
+<div class="{{ .Get "class" | default "" }}", style="{{ .Get "style" | default "" }}">
+{{ end }}
+  {{ .Inner | markdownify }}
+{{ if .Get "type" }}
+{{ if eq (.Get "type") "div" }}
+</div>
+{{ end }}
+{{ if eq (.Get "type") "blockquote" }}
+</blockquote>
+{{ end }}
+{{ else }}
+</div>
+{{ end }}

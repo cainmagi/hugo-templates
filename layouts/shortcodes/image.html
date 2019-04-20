@@ -1,0 +1,13 @@
+<div class="portfolio-block portfolio-single">
+    <img class="img-fluid" src="{{ .Get "src" }}" alt="{{ .Get "title" | default "portfolio-image" }}">
+    <div class="caption">
+        <a href="{{ .Get "src" }}" data-lightbox="{{ .Get "tag" | default "img-1" }}">
+        <div class="search-icon" >
+            <i class="fas fa-search"></i>
+        </div>
+        {{ if .Get "title" }}
+        <h4 >{{ .Get "title" }}</h4>
+        {{ end }}
+        </a>
+    </div>
+</div>

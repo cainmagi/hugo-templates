@@ -1,4 +1,5 @@
 weight: 5
 name: "Online Giving"
-icon: "fa fa-credit-card"
-description: "Example description goes here."
+icon: "fas fa-donate"
+description: "Make a donation to our ministries via PayPal."
+url: ./about/donation

@@ -1,4 +1,5 @@
 weight: 1
 name: "I'm New Here"
-icon: "fa fa-handshake-o"
-description: "Example description goes here."
+icon: "fas fa-door-open"
+description: "Welcome to our church."
+url: ./faq/#i-am-new-here

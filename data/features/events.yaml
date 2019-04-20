@@ -1,4 +1,5 @@
 weight: 6
 name: "All Events"
-icon: "fa fa-calendar"
-description: "Example description goes here."
+icon: "fas fa-calendar-alt"
+description: "Include all upcoming events and passed events."
+url: ./event

@@ -1,0 +1,9 @@
+<div class="youtube-container">
+  <video poster="{{ .Get "poster" | default "" }}" id="player" playsinline controls class="youtube">
+    <source src="{{ .Get "url" }}" type="video/{{ .Get "type" | default "mp4" }}" />
+    <!-- Captions are optional -->
+    {{ if .Get "caption" }}
+    <track kind="captions" label="Captions" src="{{ .Get "caption" }}" srclang="en" default />
+    {{ end }}
+  </video>
+</div>

@@ -1,0 +1,19 @@
+<div class="staffcard">
+{{ if .Get "img" }}
+{{ if .Get "clip" }}
+<div class="addstyle"><img class="imclip" src="{{ .Get "img" }}" alt="", width="none", height="none", resize="", clipmode="{{ .Get "clip" | default "width" }}"></div>
+{{ else }}
+<img src="{{ .Get "img" }}" alt="Avatar">
+{{ end }}
+{{ end }}
+{{ if .Get "img" }}
+<div class="container">
+{{ else }}
+<div class="container-blk">
+{{ end }}
+    {{ .Inner | markdownify }}
+    {{ if .Get "url" }}
+    <p><a href="mailto:{{ .Get "url" }}" class="btn btn-template-main" style="margin: 0"><i class="fas fa-envelope"></i> Email me</a></p>
+    {{ end }}
+</div>
+</div>

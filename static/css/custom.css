@@ -1,87 +1,311 @@
 /* your styles go here */
 
 .box-image-text .image {
-    min-height: 180px;
-    max-height: 180px;
-  }
-  
-.box-simple {
-    min-height: 230px;
+  min-height: 180px;
+  max-height: 180px;
 }
-  
+
+.box-simple {
+  min-height: 230px;
+}
+
 .testimonials .item {
-    padding-bottom: 80px;
+  padding-bottom: 90px;
 }
 
 textarea.form-control {
-    resize: vertical;
+  resize: vertical;
 }
 
 .padding-0 {
-    padding: 0;
+  padding: 0;
 }
 
 /* table */
 
 table{
-    color:#363636;
-    margin:2rem auto;
-    width:100%;
-    border-collapse:collapse
+  color:#363636;
+  margin:2rem auto;
+  width:100%;
+  border-collapse:collapse
 }
 table td,table th{
-    border:1px solid #dbdbdb;
-    border-width:0 0 1px;
-    padding:.5em .75em;
-    vertical-align:center
+  border:1px solid #dbdbdb;
+  border-width:0 0 1px;
+  padding:.5em .75em;
+  vertical-align:center
 }
 table td.is-narrow,table th.is-narrow{
-    white-space:nowrap;
-    width:1%
+  white-space:nowrap;
+  width:1%
 }
 table th{
-    color:#363636
+  color:#363636
 }
 table tr:hover{
-    background-color:#fafafa
+  background-color:#fafafa
 }
 table tr.is-selected{
-    background-color:#00ab6b;
-    color:#00ab6b
+  background-color:#00ab6b;
+  color:#00ab6b
 }
 table tr.is-selected a,table tr.is-selected strong{
-    color:currentColor
+  color:currentColor
 }
 table tr.is-selected td,table tr.is-selected th{
-    border-color:#00ab6b;
-    color:currentColor
+  border-color:#00ab6b;
+  color:currentColor
 }
 table thead td,table thead th{
-    border-width:0 0 2px;
-    color:#797979
+  border-width:0 0 2px;
+  color:#797979
 }
 table tfoot td,table tfoot th{
-    border-width:2px 0 0;
-    color:#797979
+  border-width:2px 0 0;
+  color:#797979
 }
 table tbody tr:last-child td,table tbody tr:last-child th{
-    border-bottom-width:0
+  border-bottom-width:0
 }
 table.is-bordered td,table.is-bordered th{
-    border-width:1px
+  border-width:1px
 }
 table.is-bordered tr:last-child td,table.is-bordered tr:last-child th{
-    border-bottom-width:1px
+  border-bottom-width:1px
 }
 table.is-narrow td,table.is-narrow th{
-    padding:.25em .5em
+  padding:.25em .5em
 }
 table.is-centered td,table.is-centered th,table.is-centered tr{
-    text-align:center
+  text-align:center
 }
 table.is-striped tbody tr:not(.is-selected):nth-child(even){
-    background-color:#fafafa
+  background-color:#fafafa
 }
 table.is-striped tbody tr:not(.is-selected):nth-child(even):hover{
-    background-color:#f4f3f1
+  background-color:#f4f3f1
+}
+
+.staffcard-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.staffcard {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  width: min-content;
+  height: 13rem;
+  margin: 2rem;
+}
+
+.staffcard img{
+  height: 100%;
+  width: auto;
+}
+
+.staffcard .imclip{
+  height: 100%;
+  width: 13rem;
+}
+
+.staffcard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.staffcard .container {
+  display: block;
+  padding: 10px 16px;
+  width: 16rem;
+}
+
+.staffcard .container-blk {
+  padding: 10px 16px;
+  width: 29rem;
+}
+
+.staffcard .container h3, 
+.staffcard .container h4, 
+.staffcard .container h5, 
+.staffcard .container h6, 
+.staffcard .container p {
+  margin: 0.5rem;
+}
+
+.staffcard .container-blk h3, 
+.staffcard .container-blk h4, 
+.staffcard .container-blk h5, 
+.staffcard .container-blk h6, 
+.staffcard .container-blk p {
+  margin: 0.5rem;
+}
+  
+@media screen and (max-width: 900px) {
+  .staffcard {
+    display: block;
+    width: 15rem;
+    height: auto;
+  }
+  .staffcard img {
+    width: 100%;
+    height: auto;
+  }
+  .staffcard .imclip {
+    width: 100%;
+    height: 15rem;
+  }
+  .staffcard .container {
+    width: 100%;
+  }
+  .staffcard .container-blk {
+    width: 100%;
+  }
+}
+
+.portfolio-single {
+  max-width: 50%;
+  width: max-content;
+  margin: 1rem auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.portfolio-single img{
+  max-height: 35rem;
+}
+
+p img {
+  max-width: 50%;
+  max-height: 35rem;
+}
+
+.center {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-single {
+    max-width: 70%;
+  }
+  p img {
+    max-width: 70%;
+  }
+}
+
+.special-callout {
+  background-color: #38a7bb;
+  padding: 20px 40px 10px 40px;
+  margin: 1rem 1rem;
+}
+
+.special-callout h1, .special-callout h2, .special-callout a, .special-callout p, .special-callout ul li{
+  color: #fff;
+  font-weight: normal;
+}
+
+.special-callout h1{
+  margin: 0.67em 0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.special-callout h2{
+  margin: 0.67em 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.special-callout p{
+  font-size: 1.5rem;
+  margin: 0.67em 2rem;
+}
+
+.special-callout ul li{
+  font-size: 1.5rem;
+}
+
+span {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
+
+div#all {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+div#inner-remaining {
+  flex-grow : 1;
+}
+
+.inner-portfolio .portfolio-block{
+  max-height: 15rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .inner-portfolio .portfolio-block{
+    max-height: 12rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .inner-portfolio .portfolio-block{
+    max-height: 30vw;
+  }
+}
+
+span.detail-label {
+  color: #ffffff;
+  background-color: #38a7bb;
+  padding: 2px 10px;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  border-radius: 4px;
+}
+
+/** YouTube Player */
+
+.youtube-container {
+  position: relative;
+  margin: auto auto 1em auto;
+  width: 80%;
+  padding-bottom: 45%;
+  -webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 1);
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 1);
+}
+
+.youtube-container .youtube {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.youtube-container .docs {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.youtube-container .docs .center {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  margin: auto;
+}
+
+.youtube-container .docs .center p {
+  position: absolute;
 }
