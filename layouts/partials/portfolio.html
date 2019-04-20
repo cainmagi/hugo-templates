@@ -30,9 +30,9 @@
             {{ range .item }}
                 <div class="col-6 col-md-4 padding-0 mix {{ replace .category "," " " }}">
                     <div class="portfolio-block">
-                        <img class="img-fluid" src="{{ .image | absURL }}" alt="portfolio-image">
+                        <img class="img-fluid" src="{{ .image | relURL | absURL }}" alt="portfolio-image">
                         <div class="caption">
-                            <a href="{{ .image | absURL }}" data-lightbox="image-1">
+                            <a href="{{ .image | relURL | absURL }}" data-lightbox="image-1">
                             <div class="search-icon" >
                                 <i class="fas fa-search"></i>
                             </div>

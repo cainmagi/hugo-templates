@@ -21,7 +21,11 @@ To examine the performance, please check this [demo][demo] site.
 
 ## Update report
 
+### 1.15 @ 20190420
+1. Fix some bugs.
+
 ### 1.1 @ 20190420
+
 1. Add sermon style.
 2. Add video/audio support.
 3. Add bible reference generator.

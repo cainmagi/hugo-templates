@@ -78,14 +78,14 @@
   <link href="{{ "css/owl.carousel.css" | relURL}}" rel="stylesheet">
   <link href="{{ "css/owl.theme.css" | relURL}}" rel="stylesheet">
 
-  <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
+  <link rel="alternate" href="{{ "/index.xml" | relURL | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
 
   <!-- Twitter Card meta tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
   <meta name="twitter:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
-  {{ if .Params.banner }}<meta name="twitter:image" content="{{ .Params.banner | absURL }}">
-  {{ else }}<meta name="twitter:image" content="{{ .Site.Params.twitterImage | absURL }}">
+  {{ if .Params.banner }}<meta name="twitter:image" content="{{ .Params.banner | relURL | absURL }}">
+  {{ else }}<meta name="twitter:image" content="{{ .Site.Params.twitterImage | relURL | absURL }}">
   {{ end }}<meta name="twitter:description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.defaultDescription }}{{ end }}">
 
   <!-- Facebook OpenGraph tags -->

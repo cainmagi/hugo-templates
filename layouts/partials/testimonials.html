@@ -27,7 +27,7 @@
                                 </div>
                                 <div class="name-picture">
                                     {{if .Params.avatar }}
-                                    <img class="" alt="" src="{{ .avatar | absURL }}">
+                                    <img class="" alt="" src="{{ .avatar | relURL | absURL }}">
                                     {{ end }}
                                     <h5>{{ .Params.verse }}</h5>
                                     <p>Preached by {{ .Params.author }}</p>
