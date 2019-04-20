@@ -19,3 +19,11 @@ tiles:
   bg_color: "#ffffff"
   txt_color: "#02AB6B"
   tags: ["template"]
+
+-
+  name: "Hugo-universal"
+  url: "./hugo-universal/"
+  img: "https://github.com/cainmagi/hugo-templates/raw/master/display/hugo-universal.png"
+  bg_color: "#ffffff"
+  txt_color: "#02AB6B"
+  tags: ["template"]
