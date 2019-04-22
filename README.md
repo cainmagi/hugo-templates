@@ -10,6 +10,10 @@ It is suitable for establishing a navigating site.
 
 ## Update report
 
+### 1.15 @ 20190422
+
+1. Add shortcuts for ezproxy.
+
 ### 1.1 @ 20190420
 
 1. Add a new theme `hugo-universal`.

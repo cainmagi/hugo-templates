@@ -18,3 +18,8 @@ icon = "globe"
 name = "template"
 tag = "template"
 icon = "flask"
+
+[[ params.nav ]]
+name = "proxy"
+tag = "proxy"
+icon = "database"

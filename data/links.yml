@@ -27,3 +27,59 @@ tiles:
   bg_color: "#ffffff"
   txt_color: "#02AB6B"
   tags: ["template"]
+
+-
+  name: "One Petro"
+  url: "https://www-onepetro-org.ezproxy.lib.uh.edu/"
+  img: "logos/uh-ezproxy.svg"
+  bg_color: "#ffffff"
+  txt_color: "#DB4D6D"
+  tags: ["proxy"]
+
+-
+  name: "IOP Science"
+  url: "https://iopscience-iop-org.ezproxy.lib.uh.edu/"
+  img: "logos/uh-ezproxy.svg"
+  bg_color: "#ffffff"
+  txt_color: "#DB4D6D"
+  tags: ["proxy"]
+
+-
+  name: "Science Direct"
+  url: "https://www-sciencedirect-com.ezproxy.lib.uh.edu/"
+  img: "logos/uh-ezproxy.svg"
+  bg_color: "#ffffff"
+  txt_color: "#DB4D6D"
+  tags: ["proxy"]
+  
+-
+  name: "ACM Digital Lib"
+  url: "https://dl-acm-org.ezproxy.lib.uh.edu/"
+  img: "logos/uh-ezproxy.svg"
+  bg_color: "#ffffff"
+  txt_color: "#DB4D6D"
+  tags: ["proxy"]
+
+-
+  name: "Cambridge Core"
+  url: "https://www-cambridge-org.ezproxy.lib.uh.edu/core"
+  img: "logos/uh-ezproxy.svg"
+  bg_color: "#ffffff"
+  txt_color: "#DB4D6D"
+  tags: ["proxy"]
+
+-
+  name: "IEEE Xplore"
+  url: "https://ieeexplore-ieee-org.ezproxy.lib.uh.edu/"
+  img: "logos/uh-ezproxy.svg"
+  bg_color: "#ffffff"
+  txt_color: "#DB4D6D"
+  tags: ["proxy"]
+
+-
+  name: "MIT Press"
+  url: "https://www-mitpressjournals-org.ezproxy.lib.uh.edu/"
+  img: "logos/uh-ezproxy.svg"
+  bg_color: "#ffffff"
+  txt_color: "#DB4D6D"
+  tags: ["proxy"]
